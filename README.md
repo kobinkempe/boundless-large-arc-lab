@@ -1,5 +1,9 @@
 # bound.less Large Arc Lab
 
+## Public demo
+
+[Open the live demo](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/boundless-large-arc-lab/) · [Read the case study](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/case-studies/boundless-large-arc-lab/)
+
 Compare SVG arcs and cubic approximations when an infinite canvas sends enormous coordinates through a browser's rendering pipeline.
 
 ![Large arc paint comparison](docs/screenshots/desktop.jpg)
