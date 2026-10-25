@@ -30,4 +30,8 @@ The original investigation used this page to study radius-related precision and 
 
 Hit testing is a diagnostic, not a trustworthy paint oracle for flat cubics. The paint-difference overlay compares the visible browser edge with a sampled screen-space reference; a colored sliver makes disagreement easier to inspect. The small bars provide pixel-scale reference marks. Record browser version, viewport, zoom, device pixel ratio and chosen parameters before comparing runs.
 
-JavaScript syntax, local dependencies, and the render/overlay controls are verified. There is no live model call. This is evidence of AI-assisted engineering, controlled experimentation and numerical debugging behind [bound.less](https://github.com/kobinkempe/bound.less-kk). [Publication review](PUBLICATION_REVIEW.md).
+JavaScript syntax, local dependencies, and the render/overlay controls are verified. There is no live model call. This is evidence of AI-assisted engineering, controlled experimentation and numerical debugging behind [bound.less](https://github.com/kobinkempe/bound.less-kk).
+
+## Source
+
+Extracted from [bound.less](https://github.com/kobinkempe/bound.less-kk). `PROVENANCE.json` maps the included experiments to their upstream paths and records the standalone snapshot hashes and adaptations.

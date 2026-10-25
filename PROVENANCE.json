@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/kobinkempe/bound.less-kk",
+  "upstream_paths": {
+    "index.html": "tools/harnesses/bigpath.html"
+  },
+  "snapshot_sha256": {
+    "index.html": "81d9f7d266e9456677172c35ce2701ce4a3c351c13c35efaca805f1541ada412"
+  },
+  "adaptations": [
+    "Added ordinary form controls for rendering and paint-difference toggling; retained geometry and diagnostics."
+  ],
+  "hash_scope": "Hashes identify the included standalone files after the listed adaptations; they are not a claim of byte identity with an upstream revision."
+}
