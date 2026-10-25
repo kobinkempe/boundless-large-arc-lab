@@ -1,10 +1,14 @@
 # bound.less Large Arc Lab
 
+**A browser experiment for understanding why a smooth curve can become inaccurate when you zoom far into a drawing.**
+
+In [bound.less](https://github.com/kobinkempe/bound.less-kk), a tiny visible piece of a curve may belong to an enormous circle whose endpoints are far off screen. Browser rendering and curve approximation can introduce visible errors at those scales. I wanted a repeatable way to compare representations of the same edge and see where they disagree.
+
+I used AI-assisted engineering to build the comparison and investigate precision errors that informed the drawing engine. Change the radius, scale or curve representation, render the result and turn on the paint-difference overlay. The point is to inspect the actual painted edge under the same conditions.
+
 ## Public demo
 
 [Open the live demo](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/boundless-large-arc-lab/) · [Read the case study](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/case-studies/boundless-large-arc-lab/)
-
-Compare SVG arcs and cubic approximations when an infinite canvas sends enormous coordinates through a browser's rendering pipeline.
 
 ![Large arc paint comparison](docs/screenshots/desktop.jpg)
 
