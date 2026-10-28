@@ -8,7 +8,7 @@ I used AI-assisted engineering to build the comparison and investigate precision
 
 ## Public demo
 
-[Open the live demo](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/boundless-large-arc-lab/) · [Read the case study](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/case-studies/boundless-large-arc-lab/)
+[Open the live lab](https://kobinkempe.pages.dev/boundless-large-arc-lab/) · [Read the case study](https://kobinkempe.pages.dev/case-studies/boundless-large-arc-lab/)
 
 ![Large arc paint comparison](docs/screenshots/desktop.jpg)
 
