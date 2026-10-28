@@ -8,7 +8,7 @@ I used AI-assisted engineering to build the comparison and investigate precision
 
 ## Public demo
 
-[Open the live lab](https://kobinkempe.pages.dev/boundless-large-arc-lab/) · [Read the case study](https://kobinkempe.pages.dev/case-studies/boundless-large-arc-lab/)
+[Open the live lab](https://kobinkempe.pages.dev/boundless-large-arc-lab/) · [See project details](https://kobinkempe.pages.dev/projects/boundless-large-arc-lab/)
 
 ![Large arc paint comparison](docs/screenshots/desktop.jpg)
 
@@ -25,6 +25,10 @@ Open http://127.0.0.1:8000. Change screen radius, transform scale, sweep and rep
 The same conceptual edge can be represented as a native SVG arc, split arcs, quarter-turn cubics, a fixed 22-degree switching rule, or the renderer's adaptive plan. At extreme scales, floating-point conversion and approximation error can become visible. A representation that looks safe in ordinary coordinates may fail when its endpoints are far outside the viewport.
 
 The original investigation used this page to study radius-related precision and the sixth-order relationship governing cubic approximation error. Those observations motivated renderer changes; this snapshot is a reproducible experiment, not a benchmark report with fresh cross-browser measurements.
+
+## What it showed
+
+It showed that neither format works everywhere: cubic curves drift on wide arcs, and the browser’s own arc command drifts on thin slivers of enormous circles. A fixed rule (a cubic below 22 degrees of sweep, an arc above) still left errors of up to about 15 pixels at extreme zoom, so bound.less moved to an adaptive plan that showed no visible error at that worst case.
 
 ## Reading the result
 
